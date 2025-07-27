@@ -1,0 +1,91 @@
+.footer {
+  background-color: #1e1e1e;
+  color: #d3d3d3;
+  padding: 60px 40px 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-content-left,
+.footer-content-center,
+.footer-content-right {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-content-left img {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.footer-content-left p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #bbbbbb;
+}
+
+.footer-social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social-icons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.footer-social-icons img:hover {
+  background-color: #ffffff10;
+  transform: scale(1.1);
+}
+
+.footer-content-center h2,
+.footer-content-right h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-content-center ul,
+.footer-content-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content-center li,
+.footer-content-right li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #bbbbbb;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-content-center li:hover,
+.footer-content-right li:hover {
+  color: #ffffff;
+}
+
+hr {
+  margin: 40px 0 20px;
+  border: none;
+  border-top: 1px solid #444;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
